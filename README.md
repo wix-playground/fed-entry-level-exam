@@ -54,8 +54,15 @@ d. **Bonus** Step *a* wasn't enough - some tickets have long content. Add a show
 
 ### Part 2 - List functionality
 
-a. Agents are complaining that our search functionality isn't working properly. They gave the example that when searching for "wix store", the ticket titled "Search bar for my wix store" (id `6860d043-f551-58c8-84d6-f9e6a8cb0cb2`) is not returned. Checking the data, that ticket does exist.. Find the issue and fix it.  
-Friendly reminder to commit and push after completing this step.
+2a. 
+Agents desire to have ability to organize the list order.
+
+1.Add 3 sort buttons with the following text "sort by date", "sort by title" and "sort by email"
+that allow sorting the list by ticket creation date, title and creator email respectively,
+make sure to highlights the current sort button. 
+2.On the `GET:Tickets` API add `sortBy` parameter to support sort.  
+3.Connect your client side buttons to that API call
+4.(Bonus) Clicking on a currently active sort changes it's direction (Ascending / Descending).
 
 b. We're showing only 20 tickets but agents can swear there are more. Solve this problem.  
 **Keep in mind the number of tickets is planned to grow exponentially very soon so make sure to think of a proper solution.**
@@ -82,7 +89,6 @@ Otherwise, it is mandatory.
 
 a. Add at least 3 automated browser tests using puppeteer, testing key features of your choice.
 b. Add component tests (using `jest`) to your work from *part 1*.
-
 
 ## General notes
 - Test your work well. Think of edge cases. Think of how users will use it, and make sure your work is of high quality

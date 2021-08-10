@@ -54,8 +54,12 @@ d. **Bonus** Step *a* wasn't enough - some tickets have long content. Add a show
 
 ### Part 2 - List functionality
 
-a. Agents are complaining that our search functionality isn't working properly. They gave the example that when searching for "wix store", the ticket titled "Search bar for my wix store" (id `6860d043-f551-58c8-84d6-f9e6a8cb0cb2`) is not returned. Checking the data, that ticket does exist.. Find the issue and fix it.  
-Friendly reminder to commit and push after completing this step.
+2a. Agents are complaining that our search functionality isn't working properly.
+They gave the example that when searching for "wix store", the ticket titled "Search bar for my wix store" (id `6860d043-f551-58c8-84d6-f9e6a8cb0cb2`) is not returned.
+Checking the data, that ticket does exist...
+
+1.Add a query param `?search=` to the `/tickets` API call and implement it on the server side.
+2.Connect your client side search bar to that API call
 
 b. We're showing only 20 tickets but agents can swear there are more. Solve this problem.  
 **Keep in mind the number of tickets is planned to grow exponentially very soon so make sure to think of a proper solution.**
@@ -65,8 +69,6 @@ Friendly reminder to commit and push after completing this step.
 #### 2C - Bonus Task 
 c. **Bonus** There is a need to find tickets created before/after a certain date, and our designer is on vacation to design proper UI for it. Change the search functionality so that when searching for `after:27/09/2019 api`, only tickets matching the word "api" created *after* 27/09/2019 will show. Add support for `before:[DATE]` and `from:[EMAIL]` as well.  
 Friendly reminder to commit and push after completing this step.
-
-
 ### Part 3 - Your extra touch
 Think of a small addition to this project and make it happen. If you need inspiration, you can check out our real ticketing app at https://wix.com/wixanswers and grab some ideas from there ;)
 It should involve adding something to the UI, or server (or both!).

@@ -85,7 +85,8 @@ Friendly reminder to commit and push after completing this part.
 
 ## Submitting
 
-1. add `username: wix-fed-exam, email: students-fed-exam@wix.com` as collaborators to your imported repo.
+1. add `username: wix-fed-exam, email: students-fed-exam@wix.com` 
+`username: shaibv, email: shaibom@wix.com` as collaborators to your imported repo.
 2. send the repo's URL back to the email you got from us. Describe your extra touch (part 3), and any general notes you may have. Can be anything from challenges to something you feel was not done perfect, to something you're specially proud of.
 
 ![good luck](https://media.giphy.com/media/12XDYvMJNcmLgQ/giphy.gif)

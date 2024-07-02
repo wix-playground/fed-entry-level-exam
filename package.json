@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "lerna": "^3.13.1"
+  },
+  "dependencies": {
+    "@types/react": "^18.3.3"
   }
 }
